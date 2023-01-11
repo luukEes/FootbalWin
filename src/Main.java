@@ -1,7 +1,7 @@
 public class Main {
     public static String footballWin(int AFA, int BFA, int ASB, int BSB) {
-        int multi = BFA + 0.1;
-        int multi2 = ASB + 0.1;
+        double multi = BFA + 0.1;
+        double multi2 = ASB + 0.1;
         String none = "x";
         String winA = "1";
         String winB = "2";
@@ -16,6 +16,7 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        String result = footballWin(1,2,1,1)
+        String result = footballWin(1,2,1,1);
+        System.out.println(result);
     }
 }
